@@ -8,7 +8,7 @@
               <div class="faq-top">
                 <h1>Connect Account</h1>
                 <router-link :to="{name: 'Timeline'}">
-                  <button id="myButton" class="btn">Continue</button>
+                  <button id="myButton" class="btn">Setup Account</button>
                 </router-link>
               </div>
             </div>
@@ -24,7 +24,7 @@
               <div class="col-lg-4 col-md-4">
                 <div class="knowldeg-box">
                   <i class="fa fa-check-square-o"></i>
-                  <span>Apple Health App</span>
+                  <span>Apple Health App</span>r
                   <p>Gathers health data from your iPhone, Apple Watch, and apps.</p>
                   <a href="#" title="" class="underline">Connect</a>
                 </div>

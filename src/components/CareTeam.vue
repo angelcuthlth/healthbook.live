@@ -196,9 +196,55 @@
 </template>
 
 <script>
+import rp from "request-promise"
+
 export default {
   name: 'CareTeam',
+  mounted () {
+    this.getAccessToken()
+  },
+  data () {
+    return {
+     accessToken: ''
+    }
+  },
+  computed: {
+  },
+  methods: {
+    getAccessToken() {
+      let bodyString =
+              'grant_type=client_credentials&client_id=' +
+              '12af7ab6-f961-4da7-8c05-d61a6168bd15' +
+              '&client_secret=' +
+              'HED?z:i9AL5eCM0X2Xxwf[ZBBCn?9Y4Q' +
+              '&resource=' +
+              'https://angelsharedemo4.azurehealthcareapis.com'
+      let options = {
+        method: 'POST',
+        uri:
+                'https://login.microsoftonline.com/79fe009c-79e0-4bc9-baec-a76d3145bde5/oauth2/token/',
+        headers: {
+          'Content-Type': 'application/x-www-form-urlencoded'
+        },
+        body: bodyString
+      }
+      rp(options).then(data => {
+        // eslint-disable-next-line no-console
+        console.log(data);
+        // let newData = JSON.parse(data);
+        // this.getPatients(newData.access_token
+      }).catch(error => {
+        // eslint-disable-next-line no-console
+        console.log(error)
+      })
+
+    },
+    getPatients()  {
+
+    },
+  },
 }
+
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
