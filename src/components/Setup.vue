@@ -16,25 +16,25 @@
               <div class="col-lg-4 col-md-4">
                 <div class="knowldeg-box">
                   <i class="fa fa-file-o"></i>
-                  <span>Knowledge Base</span>
-                  <p>Guys! you may make your own social media website for their friends, or publically.</p>
-                  <a href="#" title="" class="underline">Read More</a>
+                  <span>Epic MyChart</span>
+                  <p>Gives you access to your lab results, appointment information, current medications, immunization history, and more.</p>
+                  <a href="#" title="" class="underline">Connect</a>
                 </div>
               </div>
               <div class="col-lg-4 col-md-4">
                 <div class="knowldeg-box">
                   <i class="fa fa-check-square-o"></i>
-                  <span>FAQ</span>
-                  <p>Guys! you may make your own social media website for their friends, or publically.</p>
-                  <a href="#" title="" class="underline">Read More</a>
+                  <span>Apple Health App</span>
+                  <p>Gathers health data from your iPhone, Apple Watch, and apps.</p>
+                  <a href="#" title="" class="underline">Connect</a>
                 </div>
               </div>
               <div class="col-lg-4 col-md-4">
                 <div class="knowldeg-box">
                   <i class="fa fa-envelope-o"></i>
-                  <span>Contact us</span>
-                  <p>Guys! you may make your own social media website for their friends, or publically.</p>
-                  <a href="#" title="" class="underline">Read More</a>
+                  <span>Samsung Health</span>
+                  <p>Track various aspects of daily life contributing to well being.</p>
+                  <a href="#" title="" class="underline">Connect</a>
                 </div>
               </div>
             </div>
@@ -42,25 +42,25 @@
               <div class="col-lg-4 col-md-4">
                 <div class="knowldeg-box">
                   <i class="fa fa-file-o"></i>
-                  <span>Knowledge Base</span>
-                  <p>Guys! you may make your own social media website for their friends, or publically.</p>
-                  <a href="#" title="" class="underline">Read More</a>
+                  <span>Google Fit</span>
+                  <p>Achieve your fitness goals through customized coaching and actionable tips based on your health and activity history.</p>
+                  <a href="#" title="" class="underline">Connect</a>
                 </div>
               </div>
               <div class="col-lg-4 col-md-4">
                 <div class="knowldeg-box">
                   <i class="fa fa-check-square-o"></i>
-                  <span>FAQ</span>
-                  <p>Guys! you may make your own social media website for their friends, or publically.</p>
-                  <a href="#" title="" class="underline">Read More</a>
+                  <span>Fitbit</span>
+                  <p>Stay motivated and improve your health by tracking your activity, exercise, food, weight and sleep.</p>
+                  <a href="#" title="" class="underline">Connect</a>
                 </div>
               </div>
               <div class="col-lg-4 col-md-4">
                 <div class="knowldeg-box">
                   <i class="fa fa-envelope-o"></i>
-                  <span>Contact us</span>
-                  <p>Guys! you may make your own social media website for their friends, or publically.</p>
-                  <a href="#" title="" class="underline">Read More</a>
+                  <span>23andMe</span>
+                  <p>Discover what 150+ personalized reports have to say about your ancestry, health, traits and more.</p>
+                  <a href="#" title="" class="underline">Connect</a>
                 </div>
               </div>
             </div>

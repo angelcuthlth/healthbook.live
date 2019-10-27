@@ -6,8 +6,8 @@
           <div class="background-video">
             <video class="bv-video" muted></video>
             <div class="videobg-meta">
-              <h3><i class="fa fa-smile-o"></i>Hi, we HealthBook</h3>
               <div class="info">
+                <h1><i class="fa fa-smile-o"></i>Welcome to HealthBook</h1>
                 <span>Facebook for your health</span>
                 <p>
                   Turning Health Care data into information, and information into insight.

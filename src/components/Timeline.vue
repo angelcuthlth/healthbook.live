@@ -34,7 +34,7 @@
                         <button id="myButton" class="btn">Continue</button>
                       </router-link>
                       <div class="groups">
-                        <span><i class="fa fa-file-text-o"></i> Your Liked Pages</span>
+                        <span><i class="fa fa-file-text-o"></i> Feed</span>
                       </div>
                       <div>Feed</div>
                       <div class="lodmore"><button class="btn-view btn-load-more"></button></div>
@@ -43,7 +43,7 @@
                   <div class="col-lg-3">
                     <div class="sidebar static">
                       <div class="widget">
-                        <h4 class="widget-title">Your page</h4>
+                        <h4 class="widget-title">Your Health Page</h4>
                         <div class="your-page">
                           <div>
                             <a title="" href="#"><img alt="" src=" ../images/resources/friend-avatar9.jpg"></a>
@@ -60,7 +60,7 @@
                             </ul>
                             <!-- Tab panes -->
                             <div class="widget friend-list stick-widget">
-                              <h4 class="widget-title">Friends</h4>
+                              <h4 class="widget-title">Health Team</h4>
                               <div id="searchDir"></div>
                               <ul class="friendz-list">
                               </ul>
