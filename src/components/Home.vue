@@ -12,7 +12,7 @@
                 <p>
                   Turning Health Care data into information, and information into insight.
                 </p>
-                <a href="#" title="" class="btn">See your Journey</a>
+                <router-link to="/setup" tag="button">See your Journey</router-link>
               </div>
             </div>
           </div>
