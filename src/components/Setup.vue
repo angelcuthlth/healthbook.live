@@ -7,7 +7,9 @@
             <div class="col-lg-12">
               <div class="faq-top">
                 <h1>Connect Account</h1>
-                <b-button variant="success">Button</b-button>
+                <router-link :to="{name: 'Timeline'}">
+                  <button id="myButton" class="btn">Continue</button>
+                </router-link>
               </div>
             </div>
             <div class="row know-box">
