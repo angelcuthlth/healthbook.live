@@ -1,11 +1,81 @@
 <template>
-  <div class="hello">
-    <h1>{{ msg }}</h1>
-    <p>
-      For a guide and recipes on how to configure / customize this project,<br>
-      check out the
-      <a href="https://cli.vuejs.org" target="_blank" rel="noopener">vue-cli documentation</a>.
-    </p>
+  <div class="theme-layout">
+    <section>
+      <div class="gap color-bg">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="faq-top">
+                <h1>Connect Account</h1>
+                <b-button variant="success">Button</b-button>
+              </div>
+            </div>
+            <div class="row know-box">
+              <div class="col-lg-4 col-md-4">
+                <div class="knowldeg-box">
+                  <i class="fa fa-file-o"></i>
+                  <span>Knowledge Base</span>
+                  <p>Guys! you may make your own social media website for their friends, or publically.</p>
+                  <a href="#" title="" class="underline">Read More</a>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-4">
+                <div class="knowldeg-box">
+                  <i class="fa fa-check-square-o"></i>
+                  <span>FAQ</span>
+                  <p>Guys! you may make your own social media website for their friends, or publically.</p>
+                  <a href="#" title="" class="underline">Read More</a>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-4">
+                <div class="knowldeg-box">
+                  <i class="fa fa-envelope-o"></i>
+                  <span>Contact us</span>
+                  <p>Guys! you may make your own social media website for their friends, or publically.</p>
+                  <a href="#" title="" class="underline">Read More</a>
+                </div>
+              </div>
+            </div>
+            <div class="row know-box">
+              <div class="col-lg-4 col-md-4">
+                <div class="knowldeg-box">
+                  <i class="fa fa-file-o"></i>
+                  <span>Knowledge Base</span>
+                  <p>Guys! you may make your own social media website for their friends, or publically.</p>
+                  <a href="#" title="" class="underline">Read More</a>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-4">
+                <div class="knowldeg-box">
+                  <i class="fa fa-check-square-o"></i>
+                  <span>FAQ</span>
+                  <p>Guys! you may make your own social media website for their friends, or publically.</p>
+                  <a href="#" title="" class="underline">Read More</a>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-4">
+                <div class="knowldeg-box">
+                  <i class="fa fa-envelope-o"></i>
+                  <span>Contact us</span>
+                  <p>Guys! you may make your own social media website for their friends, or publically.</p>
+                  <a href="#" title="" class="underline">Read More</a>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section><!-- knowledge base top -->
+    <div class="bottombar">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <span class="copyright">© healthbook 2019. All rights reserved.</span>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 
