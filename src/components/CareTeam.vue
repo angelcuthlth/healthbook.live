@@ -196,8 +196,6 @@
 </template>
 
 <script>
-import rp from "request-promise"
-
 export default {
   name: 'CareTeam',
   mounted () {
@@ -219,24 +217,48 @@ export default {
               'HED?z:i9AL5eCM0X2Xxwf[ZBBCn?9Y4Q' +
               '&resource=' +
               'https://angelsharedemo4.azurehealthcareapis.com'
-      let options = {
+      const testURL = 'https://login.microsoftonline.com/79fe009c-79e0-4bc9-baec-a76d3145bde5/oauth2/token/';
+      const myInit = {
         method: 'POST',
-        uri:
-                'https://login.microsoftonline.com/79fe009c-79e0-4bc9-baec-a76d3145bde5/oauth2/token/',
+        mode: 'no-cors',
+        body: bodyString,
         headers: {
-          'Content-Type': 'application/x-www-form-urlencoded'
+          "Content-Type": "application/x-www-form-urlencoded"
         },
-        body: bodyString
-      }
-      rp(options).then(data => {
+      };
+
+      const myRequest = new Request(testURL, myInit);
+
+      fetch(myRequest).then(function(response) {
+        if (!response.ok) {
+          // eslint-disable-next-line no-console
+          console.log(response)
+          throw Error(response.statusText);
+        }
         // eslint-disable-next-line no-console
-        console.log(data);
-        // let newData = JSON.parse(data);
-        // this.getPatients(newData.access_token
-      }).catch(error => {
+        console.log(response);
+      }).catch(function(e){
         // eslint-disable-next-line no-console
-        console.log(error)
-      })
+        console.log(e);
+      });
+
+
+
+      // let options = {
+      //   headers: {
+      //     'Content-Type': 'text/plain'
+      //   },
+      //   body: bodyString,
+      // }
+      // rp(options).then(data => {
+      //   // eslint-disable-next-line no-console
+      //   console.log(data);
+      //   // let newData = JSON.parse(data);
+      //   // this.getPatients(newData.access_token
+      // }).catch(error => {
+      //   // eslint-disable-next-line no-console
+      //   console.log(error)
+      // })
 
     },
     getPatients()  {
