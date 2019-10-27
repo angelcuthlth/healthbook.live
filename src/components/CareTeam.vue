@@ -198,7 +198,75 @@
 <script>
 export default {
   name: 'CareTeam',
+  mounted () {
+    this.getAccessToken()
+  },
+  data () {
+    return {
+     accessToken: ''
+    }
+  },
+  computed: {
+  },
+  methods: {
+    getAccessToken() {
+      let bodyString =
+              'grant_type=client_credentials&client_id=' +
+              '12af7ab6-f961-4da7-8c05-d61a6168bd15' +
+              '&client_secret=' +
+              'HED?z:i9AL5eCM0X2Xxwf[ZBBCn?9Y4Q' +
+              '&resource=' +
+              'https://angelsharedemo4.azurehealthcareapis.com'
+      const testURL = 'https://login.microsoftonline.com/79fe009c-79e0-4bc9-baec-a76d3145bde5/oauth2/token/';
+      const myInit = {
+        method: 'POST',
+        mode: 'no-cors',
+        body: bodyString,
+        headers: {
+          "Content-Type": "application/x-www-form-urlencoded"
+        },
+      };
+
+      const myRequest = new Request(testURL, myInit);
+
+      fetch(myRequest).then(function(response) {
+        if (!response.ok) {
+          // eslint-disable-next-line no-console
+          console.log(response)
+          throw Error(response.statusText);
+        }
+        // eslint-disable-next-line no-console
+        console.log(response);
+      }).catch(function(e){
+        // eslint-disable-next-line no-console
+        console.log(e);
+      });
+
+
+
+      // let options = {
+      //   headers: {
+      //     'Content-Type': 'text/plain'
+      //   },
+      //   body: bodyString,
+      // }
+      // rp(options).then(data => {
+      //   // eslint-disable-next-line no-console
+      //   console.log(data);
+      //   // let newData = JSON.parse(data);
+      //   // this.getPatients(newData.access_token
+      // }).catch(error => {
+      //   // eslint-disable-next-line no-console
+      //   console.log(error)
+      // })
+
+    },
+    getPatients()  {
+
+    },
+  },
 }
+
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
