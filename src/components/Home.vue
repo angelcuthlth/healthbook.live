@@ -12,7 +12,9 @@
                 <p>
                   Turning Health Care data into information, and information into insight.
                 </p>
-                <router-link to="/setup" tag="button">See your Journey</router-link>
+                <router-link :to="{name: 'setup'}">
+                  <button id="myButton" class="btn">See your Journey</button>
+                </router-link>
               </div>
             </div>
           </div>
